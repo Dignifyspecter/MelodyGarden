@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    font-family: 'Georgia', serif;
+    color: #333;
+    padding: 50px;
+    text-align: center;
+}
+
+.garden {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #6a11cb;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+.feelings-button {
+    background-color: #ff80ab;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .feelings-button:hover {
+    transform: scale(1.1);
+  }
+  
